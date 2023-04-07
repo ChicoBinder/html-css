@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+    font-family: droid;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: bison;
+    src: url(fonts/Bison-Bold\(PersonalUse\).ttf);
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    background-color: rgb(63, 5, 24);
+}
+header{
+    background-image: linear-gradient(rgb(233, 78, 233), rgba(63, 18, 63, 0.445));
+    margin: 0px;
+    padding: 3px;
+}
+header > h1{
+    font-family: bison;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+header > p{
+    text-align: center;
+    color: rgb(209, 209, 209);
+    margin-bottom: 20px;
+}
+
+#menu > p{
+    color: rgb(216, 216, 216);
+    display: inline-flex;
+    margin: 7px;
+    font-weight: bold;
+}
+
+#menu > p > a{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+#menu > p:hover{
+    background-color: rgba(63, 18, 63, 0.445);
+    border-radius: 2px;
+}
+
+main{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+main > h2{
+    font-family: droid;
+    color: #0b4b19;
+}
+main > p{
+    text-indent: 20px;
+}
+main > p > a{
+    color: rgb(24, 160, 24);
+    text-decoration: none;
+}
+.versao > h3{
+    font-family: droid;
+    color: #0b4b19;
+    padding-left: 7px;
+    background-image: linear-gradient(to right,#C5EBD5,white);
+}
+
+.versao > p{
+    text-indent: 20px;
+}
+.versao > p > a{
+    color: rgb(24, 160, 24);
+    text-decoration: none;
+}
+
+.versao > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > iframe{
+    text-decoration: none;
+    margin-left: -20px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgba(63, 18, 63, 0.445);
+}
+.curiosidades{
+    background-color: rgba(63, 18, 63, 0.445);
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.curiosidades > h4{
+    color: white;
+    background-color: rgb(63, 5, 24);
+    padding: 6px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.curiosidades > p{
+    text-indent: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.curiosidades > p > a{
+    color: rgb(24, 160, 24);
+    text-decoration: none;
+}
+
+.curiosidades > div{
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    display: inline-block;
+    text-align: left;
+    width: 388px;
+}
+
+.final{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.borda-final{
+    color: white;
+    margin-bottom: 0px;
+    background-color: rgba(51, 4, 4, 0.644);
+    text-align: center;
+}

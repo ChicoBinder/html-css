@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js"></script>
+    <style>
+      /* Add styles for menu */
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: black;
+        box-shadow: 0px 0px 10px gray;
+      }
+      .menu a {
+        text-decoration: none;
+        color: orange;
+        padding: 20px;
+        font-size: 18px;
+      }
+      .menu a:hover {
+        color: white;
+        background-color: orange;
+      }
+      /* Add styles for menu items */
+      .menu-items {
+        display: none;
+        padding: 20px;
+        background-color: lightgray;
+      }
+      .menu-open .menu-items {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#" class="menu-toggle">Menu</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="menu-items">
+      <p>Breaded and caramelized chicken in passion fruit</p>
+      <p>Lotus-style breaded onions</p>
+      <p>Filet mignon with palm cactus sauce</p>
+    </div>
+    <script>
+      // Add JavaScript to toggle menu items
+      const menuToggle = document.querySelector('.menu-toggle');
+      menuToggle.addEventListener('click', function() {
+        document.querySelector('.menu').classList.toggle('menu-open');
+      });
+    </script>
+  </body>
+</html>

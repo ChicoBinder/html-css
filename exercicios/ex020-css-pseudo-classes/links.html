@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(90, 64, 64);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .facebook a:hover{
+            color: rgba(45, 45, 177, 0.479);
+        }
+        .instagram a:hover{
+            color: rgb(202, 30, 59);
+        }
+        .youtube a:hover{
+            color: red;
+        }
+        .facebook:hover{
+            color: rgba(45, 45, 177, 0.479);
+        }
+        .instagram:hover{
+            color: rgb(202, 30, 59);
+        }
+        .youtube:hover{
+            color: red;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color:yellow
+        }
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+        a::before{
+            content: '[Link] ';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li class="instagram"><a href="https://www.instagram.com/chicobinder/" target="_blank" rel="external">Instagram</a></li>
+        <li class="facebook"><a href="https://www.facebook.com/francisco.binder.5" target="_blank" rel="external">Facebook</a></li>
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCGwcxfZrQmjrTQvItKZNjUQ" target="_blank" rel="external">Youtube</a></li>
+    </ul>
+</body>
+</html>
