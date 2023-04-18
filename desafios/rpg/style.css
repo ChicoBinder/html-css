@@ -49,9 +49,7 @@ main h2{
 }
 
 .atributo{
-    display: inline-block;
-    width: 40%;
-    float: left;
+    margin: auto;
     background-color: white;
     color: black;
     border-radius: 10px;
