@@ -78,8 +78,16 @@ table{
     min-width: 450px;
 }
 
+tr:hover{
+    background-color: #542e79a2;
+}
+
 .atributo tr:nth-child(2n){
     background-color: #F2E8F8;
+}
+
+.atributo tr:nth-child(2n):hover{
+    background-color: #542e79a2;
 }
 
 th{
@@ -148,7 +156,7 @@ td{
     border: 1px solid black;
 }
 
-.vidamp td{
+.vidamp > td{
     margin: auto;
     margin-bottom: 2px;
     background-color: #F2E8F8;
@@ -159,6 +167,14 @@ td{
 .vidamp th{
     background-color: #d1c1e073;
     font-size: 1.1em;
+}
+
+.vidamp tr:nth-child(2n){
+    background-color: #F2E8F8;
+}
+
+.vidamp tr:nth-child(2n):hover{
+    background-color: #542e79a2;
 }
 
 .red{
@@ -172,7 +188,7 @@ td{
 }
 
 .yellow{
-    color: rgb(163, 163, 23);
+    color: rgb(255, 255, 43);
     font-weight: bold;
 }
 
@@ -215,6 +231,10 @@ td{
 
 .pericias tr:nth-child(2n){
     background-color: #F2E8F8;
+}
+
+.pericias tr:nth-child(2n):hover{
+    background-color: #542e79a2;
 }
 
 .tecnica{
