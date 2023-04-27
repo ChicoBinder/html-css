@@ -73,6 +73,8 @@ table{
     border-collapse: collapse;
     width: 70%;
     text-overflow: ellipsis;
+    background-color: #F2E8F8;
+    color: #202122;
 }
 
 td{
@@ -84,6 +86,7 @@ td{
 
 .tipo{
     font-size: 1.2em;
+    background-color: #D1C1E0;
 }
 
 .atributo > h2{
