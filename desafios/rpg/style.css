@@ -15,7 +15,7 @@ html, body{
 
 body{
     background-image: url(max-lissenden-gX-CzjCDtXs-unsplash.jpg);
-    color: white;
+    color: rgb(255, 255, 255);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -51,14 +51,14 @@ main h2{
     max-width: 800px;
     border-radius: 10px;
     padding: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     box-shadow: 1px 1px 5px black;
 }
 
 .atributo{
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     border-radius: 10px;
     padding: 10px;
@@ -66,27 +66,57 @@ main h2{
     max-width: 800px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px black;
+    padding-bottom: 40px;
 }
 
 table{
     margin: auto;
     border-collapse: collapse;
-    width: 70%;
-    text-overflow: ellipsis;
-    background-color: #F2E8F8;
+    background-color: #ebd1fa;
     color: #202122;
+    max-width: 600px;
+    min-width: 450px;
+}
+
+.atributo tr:nth-child(2n){
+    background-color: #F2E8F8;
+}
+
+th{
+    border: 1.5px solid black;
+    padding: 8px;
 }
 
 td{
     border: 1.5px solid black;
     padding: 8px;
     text-align: center;
-    overflow: hidden;
+    max-width: 80px;
+    min-width: 40px;
 }
+
+.classsifica{
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #45404b;
+    color: rgb(240, 214, 214);
+    max-width: 80px;
+    min-width: 40px;
+}
+
+.unico{
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #45404b;
+    color: rgb(240, 214, 214);
+}
+
 
 .tipo{
     font-size: 1.2em;
     background-color: #D1C1E0;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .atributo > h2{
@@ -95,30 +125,60 @@ td{
 
 .vidamp{
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px 10px 30px 10px;
     min-width: 150px;
     max-width: 800px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px black;
 }
 
+.vidamp > table{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #d1c1e073;
+    color: #202122;
+    max-width: 400px;
+    min-width: 350px;
+}
+
+.vidamp > tr{
+    border: 1px solid black;
+}
+
+.vidamp td{
+    margin: auto;
+    margin-bottom: 2px;
+    background-color: #F2E8F8;
+    text-align: center;
+    width: 100px;
+}
+
+.vidamp th{
+    background-color: #d1c1e073;
+    font-size: 1.1em;
+}
+
 .red{
     color: rgb(182, 8, 8);
+    font-weight: bold;
 }
 
 .blue{
     color: rgb(0, 0, 138);
+    font-weight: bold;
 }
 
 .yellow{
     color: rgb(163, 163, 23);
+    font-weight: bold;
 }
+
 .qualdef{
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     border-radius: 10px;
     padding: 10px;
@@ -130,7 +190,7 @@ td{
 
 .itens{
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     border-radius: 10px;
     padding: 10px;
@@ -142,7 +202,7 @@ td{
 
 .pericias{
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     border-radius: 10px;
     padding: 10px;
@@ -150,11 +210,16 @@ td{
     max-width: 800px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px black;
+    padding-bottom: 40px;
+}
+
+.pericias tr:nth-child(2n){
+    background-color: #F2E8F8;
 }
 
 .tecnica{
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     border-radius: 10px;
     padding: 10px;
@@ -170,7 +235,7 @@ td{
 
 .efeitos{
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.900);
     color: black;
     border-radius: 10px;
     padding: 10px;
