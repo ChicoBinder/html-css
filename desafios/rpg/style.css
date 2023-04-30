@@ -107,6 +107,9 @@ td{
     font-size: 1.1em;
 }
 
+div.tabela{
+    overflow: auto;
+}
 .classsifica{
     font-weight: bold;
     font-size: 1.1em;
