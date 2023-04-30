@@ -94,10 +94,12 @@ tr:hover{
 
 .atributo tr:nth-child(2n){
     background-color: #f2e8f8;
+
 }
 
 .atributo tr:nth-child(2n):hover{
     background-color: #542e79a2;
+
 }
 
 th{
