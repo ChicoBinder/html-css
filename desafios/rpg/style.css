@@ -108,7 +108,7 @@ td{
 }
 
 div.tabela{
-    overflow: auto;
+    overflow-x: auto;
 }
 .classsifica{
     font-weight: bold;
