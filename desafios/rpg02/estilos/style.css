@@ -225,7 +225,7 @@ div{
     padding: 0px;
     padding-bottom: 10px;
     background-image: url(../imagens/roses.jpg);
-    background-position: right center;
+    background-position: top left;
     background-size: cover;
     background-attachment: fixed;
 }
