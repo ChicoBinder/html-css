@@ -30,10 +30,10 @@ header{
 
 nav{
     position: sticky;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.425);
     overflow: hidden;
-    display: inline-block;
     top: 0px;
+    padding: 5px;
 }
 nav a{
     text-decoration: none;
@@ -41,11 +41,11 @@ nav a{
 }
 
 main{
-    background-color: rgba(0, 128, 0, 0.315);
+    background-color: rgba(0, 128, 0, 0.205);
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    line-height: 1.5rem;
+    line-height: 2rem;
     font-size: 1.2rem;
     max-width: 800px;
     min-width: 380px;
@@ -65,11 +65,10 @@ table{
     overflow-x: auto;
 }
 
-
-caption{
-    line-height: 1.5rem;
-    font-size: 1.5rem;
-    padding: 10px;
+caption,h1,h2,h4,h5{
+    line-height: 1.5em;
+    font-size: 1.8rem;
+    padding: 20px;
     font-family: var(--fonte-padrao);
     font-weight: bold;
 }
@@ -95,14 +94,10 @@ footer a:hover{
     color: blue;
 }
 
-.atributo, .qualdef, .itens{
+.tabela{
     padding: 20px;
 }
 
 .hpmp{
     margin-top: 10px;
-}
-
-.tecnica{
-    overflow-x: auto;
 }
