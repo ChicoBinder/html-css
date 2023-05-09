@@ -7,17 +7,30 @@
     <title>RPG</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/js.js"></script>
+
 </head>
 <body>
     <header>
         <h1>HP RPG</h1>
     </header>
     <nav>
-        <a href="#atributo">Atributos</a>
-        <a href="#qualdef">Qualidades e Defeitos</a>
-        <a href="#itens">Itens</a>
-        <a href="#pericias">Perícias</a>
-        <a href="#tecnica">Técnicas</a>
+        <ul id="ul-principal">
+            <li class="li-p"><a href="#">Home</a></li>
+            <li class="li-p">
+                <a href="javascript://" class="bt1">
+                    Menu
+                </a>
+                <ul class="ul-menu">
+                    <li><a href="#atributo">Atributos</a></li>
+                    <li><a href="#qualdef">Qualidades e Defeitos</a></li>
+                    <li><a href="#itens">Itens</a></li>
+                    <li><a href="#pericias">Perícias</a></li>
+                    <li><a href="#tecnica">Técnicas</a></li>
+                </ul>
+            </li>   
+        </ul>
     </nav>
     <main>
         <div class="tabela" class="atributo" id="atributo">
