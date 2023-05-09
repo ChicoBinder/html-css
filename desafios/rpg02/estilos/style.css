@@ -10,6 +10,7 @@
     --cor01:rgba(0, 128, 0, 0.205);
     --cor02:rgba(177, 0, 0, 0.973);
     --cor03:rgba(255, 166, 0, 0.658);
+    --cor04:rgba(128, 128, 128, 0.849);
 }
 
 *{
@@ -94,6 +95,14 @@ table td,th{
     border: 1px solid black;
     width: 100vw;
     padding: 10px 0px;
+}
+
+thead tr{
+    background-color: var(--cor04);
+}
+
+tbody th{
+    background-color: var(--cor01);
 }
 
 footer{
