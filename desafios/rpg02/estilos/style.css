@@ -20,11 +20,11 @@
 }
 
 body{
+    background-image: url(../imagens/Slytherin.jpg);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(26, 26, 26);
+    background-color: white;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
 }
 
 header{
@@ -88,7 +88,6 @@ a img{
 }
 
 main{
-    background-color: rgba(255, 255, 255, 0.853);
     color: black;
     margin: auto;
     margin-top: 20px;
@@ -98,7 +97,6 @@ main{
     max-width: 800px;
     min-width: 380px;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px var(--cor02);
 }
 
 main p{
@@ -125,37 +123,27 @@ table{
     border-collapse: collapse;
     text-align: center;
     overflow-x: auto;
-    color: white;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 table td,th{
-    border: 1px solid black;
     width: 100vw;
     padding: 10px 0px;
 }
 
-table thead tr{
-    background-color: #993b34;
-}
-
-tbody th{
-    background-color: #993b3485;
+thead tr{
+    background-color: rgba(214, 214, 214, 0.450);
 }
 
 tbody tr:nth-child(2n){
-    background-color: var(--cor03);
-}
-
-tbody tr:nth-child(2n-1){
-    background-color: #e66e65ee;
-}
-
-tbody tr:hover{
-    background-color: var(--cor01);
+    background-color: rgba(214, 214, 214, 0.450);
 }
 
 footer{
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 5px;
 }
@@ -163,17 +151,35 @@ footer{
 footer a{
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+footer a:hover{
+    font-weight: bold;
 }
 
-footer a:hover{
-    color: rgb(0, 0, 185);
+div{
+    background-color: rgba(255, 255, 255, 0.850);
+    border-radius: 10px;
+    margin: 30px 0px;
+    box-shadow: 0px 0px 5px black;
+    padding-bottom: 10px;
 }
+
 
 .hpmp{
     margin-top: 10px;
+    padding-bottom: 0px;
+}
+
+.hpmp table{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .efeitos{
     padding-bottom: 20px;
+}
+
+.tabela{
+    padding-bottom: 0px;
 }
