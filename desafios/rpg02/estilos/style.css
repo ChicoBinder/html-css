@@ -26,14 +26,14 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to top, #300D66, #8846EA);
+    background-image: linear-gradient(to right,#993B34, #DAE67C, #E66E65, #3C6A99);
 }
 
 header h1{
     font-family: var(--fonte-thunder);
     font-size: 3rem;
     text-align: center;
-    color: white;
+    color: rgba(0, 0, 0, 0.829);
 }
 
 nav{
