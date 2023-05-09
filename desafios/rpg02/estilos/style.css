@@ -186,8 +186,9 @@ div{
     width: 100%;
     padding: 0px;
     padding-bottom: 10px;
-    background-image: url(../imagens/Wands.jpg);
-    background-size: contain;
+    background-image: url(../imagens/roses.jpg);
+    background-position: top left;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -196,8 +197,9 @@ div{
     width: 100%;
     padding: 0px;
     padding-bottom: 10px;
-    background-image: url(../imagens/Gotas.avif);
-    background-size: contain;
+    background-image: url(../imagens/roses.jpg);
+    background-position: left center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -206,7 +208,8 @@ div{
     width: 100%;
     padding: 0px;
     padding-bottom: 10px;
-    background-image: url(../imagens/Slytherin.jpg);
+    background-image: url(../imagens/roses.jpg);
+    background-position: bottom left;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -216,7 +219,8 @@ div{
     width: 100%;
     padding: 0px;
     padding-bottom: 10px;
-    background-image: url(../imagens/dices2.jpg);
+    background-image: url(../imagens/roses.jpg);
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
