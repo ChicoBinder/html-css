@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sedgwick+Ave+Display&display=swap');
+
+
+:root{
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'MedievalSharp', cursive;
+    --fonte-thunder: 'Sedgwick Ave Display', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte-thunder);
+    font-size: 1.5em;
+}
+
+nav{
+    position: sticky;
+    background-color: black;
+    overflow: hidden;
+    display: inline-block;
+    top: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    background-color: rgba(0, 128, 0, 0.315);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    max-width: 800px;
+    min-width: 380px;
+}
+
+main h1, h2, h3, h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+table{
+    font-family: var(--fonte-destaque);
+    padding: 20px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    overflow-x: auto;
+}
+
+
+caption{
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+}
+
+table td,th{
+    border: 1px solid black;
+    width: 100vw;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.295);
+    text-align: center;
+    padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+.atributo, .qualdef, .itens{
+    padding: 20px;
+}
+
+.hpmp{
+    margin-top: 10px;
+}
+
+.tecnica{
+    overflow-x: auto;
+}
