@@ -89,7 +89,6 @@ a img{
 main{
     color: black;
     margin: auto;
-    margin-bottom: 20px;
     line-height: 2rem;
     font-size: 1.2rem;
     border-radius: 10px;
@@ -184,9 +183,9 @@ div{
 
 .primeira-imagem{
     margin: auto;
-    margin-bottom: 20px;
     width: 100%;
     padding: 0px;
+    padding-bottom: 10px;
     background-image: url(../imagens/Wands.jpg);
     background-size: contain;
     background-attachment: fixed;
@@ -194,9 +193,9 @@ div{
 
 .segunda-imagem{
     margin: auto;
-    margin-bottom: 20px;
     width: 100%;
     padding: 0px;
+    padding-bottom: 10px;
     background-image: url(../imagens/Gotas.avif);
     background-size: contain;
     background-attachment: fixed;
@@ -204,9 +203,9 @@ div{
 
 .terceira-imagem{
     margin: auto;
-    margin-bottom: 20px;
     width: 100%;
     padding: 0px;
+    padding-bottom: 10px;
     background-image: url(../imagens/Slytherin.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -214,10 +213,10 @@ div{
 
 .quarta-imagem{
     margin: auto;
-    margin-bottom: 20px;
     width: 100%;
     padding: 0px;
-    background-image: url(../imagens/dices.jpg);
+    padding-bottom: 10px;
+    background-image: url(../imagens/dices2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
