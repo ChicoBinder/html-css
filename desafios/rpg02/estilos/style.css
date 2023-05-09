@@ -7,10 +7,11 @@
     --fonte-destaque: 'MedievalSharp', cursive;
     --fonte-thunder: 'Sedgwick Ave Display', cursive;
 
-    --cor01:rgba(0, 128, 0, 0.205);
-    --cor02:rgba(177, 0, 0, 0.973);
-    --cor03:rgba(255, 166, 0, 0.658);
-    --cor04:rgba(128, 128, 128, 0.849);
+    --cor01:#993B34;
+    --cor02:#DAE67C;
+    --cor03:#E66E65;
+    --cor04:#4E99E6;
+    --cor05:#3C6A99;
 }
 
 *{
@@ -20,12 +21,12 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(26, 26, 26);
     color: white;
 }
 
 header{
-    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.164));
+    background-image: linear-gradient(to top, #300D66, #8846EA);
 }
 
 header h1{
@@ -46,14 +47,10 @@ nav a{
     display: block;
     text-decoration: none;
     color: white;
-    margin-right: 50px;
+    margin-right: 20px;
     padding: 0px 20px;
     transition: .5s;
     border-radius: 2%;
-}
-
-nav a:hover{
-    background-color: var(--cor03);
 }
 
 ul#ul-principal{
@@ -71,8 +68,12 @@ ul li ul li{
     background-color: rgba(0, 0, 0, 0.806);
 }
 
+ul li ul li a{
+    margin-right: 0px;
+}
+
 ul li a:hover{
-    background-color: rgba(255, 255, 255, .3);
+    background-color: var(--cor04);
 }
 
 a img{
@@ -86,7 +87,7 @@ a img{
 }
 
 main{
-    background-color: var(--cor01);
+    background-color: var(--cor05);
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -129,11 +130,15 @@ table td,th{
 }
 
 thead tr{
-    background-color: var(--cor04);
+    background-color: #993b34da;
 }
 
 tbody th{
     background-color: var(--cor01);
+}
+
+tbody td{
+    background-color: var(--cor03);
 }
 
 footer{
