@@ -6,6 +6,10 @@
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'MedievalSharp', cursive;
     --fonte-thunder: 'Sedgwick Ave Display', cursive;
+
+    --cor01:rgba(0, 128, 0, 0.205);
+    --cor02:rgba(177, 0, 0, 0.973);
+    --cor03:rgba(255, 166, 0, 0.658);
 }
 
 *{
@@ -20,17 +24,19 @@ body{
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.905);
-    color: white;
-    text-align: center;
-    padding: 10px;
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.164));
+}
+
+header h1{
     font-family: var(--fonte-thunder);
-    font-size: 1.5em;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
 }
 
 nav{
     position: sticky;
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.930);
     overflow: hidden;
     top: 0px;
     padding: 5px;
@@ -38,10 +44,17 @@ nav{
 nav a{
     text-decoration: none;
     color: white;
+    border-radius: 5px;
+    background-color: var(--cor02);
+    padding: 4px;
+}
+
+nav a:hover{
+    background-color: var(--cor03);
 }
 
 main{
-    background-color: rgba(0, 128, 0, 0.205);
+    background-color: var(--cor01);
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -51,9 +64,21 @@ main{
     min-width: 380px;
 }
 
+main p{
+    padding-left: 20px;
+}
+
 main h1, h2, h3, h4{
     text-align: center;
     padding-bottom: 20px;
+}
+
+h1,h2,h3,h4,h5{
+    line-height: 1.5em;
+    font-size: 1.8rem;
+    padding: 20px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
 }
 
 table{
@@ -63,14 +88,6 @@ table{
     border-collapse: collapse;
     text-align: center;
     overflow-x: auto;
-}
-
-caption,h1,h2,h4,h5{
-    line-height: 1.5em;
-    font-size: 1.8rem;
-    padding: 20px;
-    font-family: var(--fonte-padrao);
-    font-weight: bold;
 }
 
 table td,th{
@@ -91,11 +108,7 @@ footer a{
 }
 
 footer a:hover{
-    color: blue;
-}
-
-.tabela{
-    padding: 20px;
+    color: rgb(0, 0, 185);
 }
 
 .hpmp{
