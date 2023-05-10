@@ -48,8 +48,8 @@ nav a{
     display: block;
     text-decoration: none;
     color: white;
-    margin-right: 20px;
-    padding: 0px 30px;
+    margin-right: 15px;
+    padding: 0px 15px;
     transition: .5s;
     border-radius: 2%;
 }
