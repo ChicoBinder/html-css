@@ -1,0 +1,11 @@
+.table input {
+    width: 100%;
+}
+
+#tableAtt input{
+    width: 50px;
+}
+
+#tablePerNome input{
+    width: 150px;
+}
